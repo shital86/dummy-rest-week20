@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="6" failures="3" name="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" skipped="0" tests="12" time="15.86" timestamp="2022-06-21T22:12:21.038+01:00[Europe/London]"><testcase classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" name="This will create a new employee"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;429&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;429&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;429&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test001(DummyRestAPICURDTest.java:38)&#13;
+</system-err></testcase><testcase classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" name="This will Read an employee by ID"/><testcase classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" name="This will Update an employee by ID"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;429&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;429&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;429&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test003(DummyRestAPICURDTest.java:67)&#13;
+</system-err></testcase><testcase classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" name="This will Delete an employee by ID"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;429&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;429&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;429&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test004(DummyRestAPICURDTest.java:78)&#13;
+</system-err></testcase><testcase classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" name="1. Verify if total records are 24"><error message="io.restassured.path.xml.XmlPath cannot be cast to java.util.List" type="java.lang.ClassCastException">io.restassured.path.xml.XmlPath cannot be cast to java.util.List</error><system-err>io.restassured.path.xml.XmlPath cannot be cast to java.util.List&#13;
+com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test005(DummyRestAPICURDTest.java:88)&#13;
+</system-err></testcase><testcase classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" name="2. Verify if 24th Data id is 24"><error message="io.restassured.path.xml.XmlPath cannot be cast to java.lang.Integer" type="java.lang.ClassCastException">io.restassured.path.xml.XmlPath cannot be cast to java.lang.Integer</error><system-err>io.restassured.path.xml.XmlPath cannot be cast to java.lang.Integer&#13;
+com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test006(DummyRestAPICURDTest.java:96)&#13;
+</system-err></testcase><testcase classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" name="3. Verify if 9th employee name is Colleen Hurst"><error message="io.restassured.path.xml.XmlPath cannot be cast to java.lang.String" type="java.lang.ClassCastException">io.restassured.path.xml.XmlPath cannot be cast to java.lang.String</error><system-err>io.restassured.path.xml.XmlPath cannot be cast to java.lang.String&#13;
+com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test007(DummyRestAPICURDTest.java:104)&#13;
+</system-err></testcase><testcase classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" name="4. Verify if message is Successfully! All records has been fetched"><error message="io.restassured.path.xml.XmlPath cannot be cast to java.lang.String" type="java.lang.ClassCastException">io.restassured.path.xml.XmlPath cannot be cast to java.lang.String</error><system-err>io.restassured.path.xml.XmlPath cannot be cast to java.lang.String&#13;
+com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test008(DummyRestAPICURDTest.java:112)&#13;
+</system-err></testcase><testcase classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" name="5. Verify if status is success"><error message="io.restassured.path.xml.XmlPath cannot be cast to java.lang.String" type="java.lang.ClassCastException">io.restassured.path.xml.XmlPath cannot be cast to java.lang.String</error><system-err>io.restassured.path.xml.XmlPath cannot be cast to java.lang.String&#13;
+com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test009(DummyRestAPICURDTest.java:120)&#13;
+</system-err></testcase><testcase classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" name="6. Verify 4th id salary is 433060"><error message="io.restassured.path.xml.XmlPath cannot be cast to java.util.List" type="java.lang.ClassCastException">io.restassured.path.xml.XmlPath cannot be cast to java.util.List</error><system-err>io.restassured.path.xml.XmlPath cannot be cast to java.util.List&#13;
+com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test010(DummyRestAPICURDTest.java:128)&#13;
+</system-err></testcase><testcase classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" name="7. Verify 4th id age is 22"/><testcase classname="com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest" name="8. Verify 15th id name is Tatyana Fitzpatrick"/></testsuite>

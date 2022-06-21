@@ -1,0 +1,4 @@
+com\restapiexample\dummy\dummyrestapiInfo\DummyRestAPICURDTest.class
+com\restapiexample\dummy\cucumber\steps\MyStepdefs.class
+com\restapiexample\dummy\cucumber\TestRunner.class
+com\restapiexample\dummy\testbase\TestBase.class

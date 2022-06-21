@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Dummy rest APICURD test","This will create a new employee","FAILURE","2022-06-21T22:12:21.038+01:00[Europe/London]","0.0","5.41"
+"Dummy rest APICURD test","This will Update an employee by ID","FAILURE","2022-06-21T22:12:27.585+01:00[Europe/London]","0.0","0.86"
+"Dummy rest APICURD test","This will Delete an employee by ID","FAILURE","2022-06-21T22:12:28.455+01:00[Europe/London]","0.0","0.89"
+"As a user I would like to check CRUD operation of the application","I want to read a new employee","FAILURE","2022-06-21T22:12:27.350+01:00[Europe/London]","0.0","2.03"
+"As a user I would like to check CRUD operation of the application","I want to update a newly created employee","FAILURE","2022-06-21T22:12:29.476+01:00[Europe/London]","0.0","0.9"
+"As a user I would like to check CRUD operation of the application","I want to delete a newly created employee","FAILURE","2022-06-21T22:12:30.412+01:00[Europe/London]","0.0","0.89"

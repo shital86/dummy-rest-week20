@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Dummy rest APICURD test","This will Read an employee by ID","SUCCESS","2022-06-21T22:12:26.472+01:00[Europe/London]","0.0","1.11"
+"Dummy rest APICURD test","7. Verify 4th id age is 22","SUCCESS","2022-06-21T22:12:35.030+01:00[Europe/London]","0.0","0.99"
+"Dummy rest APICURD test","8. Verify 15th id name is Tatyana Fitzpatrick","SUCCESS","2022-06-21T22:12:36.024+01:00[Europe/London]","0.0","0.91"
+"As a user I would like to check CRUD operation of the application","I want to create a new employee","SUCCESS","2022-06-21T22:12:21.104+01:00[Europe/London]","0.0","5.56"
+"As a user I would like to check CRUD operation of the application","I want to fetch all employees and verify some from the response","SUCCESS","2022-06-21T22:12:31.339+01:00[Europe/London]","0.0","1.27"

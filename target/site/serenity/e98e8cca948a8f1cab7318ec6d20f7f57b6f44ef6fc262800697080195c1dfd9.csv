@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"As a user I would like to check CRUD operation of the application","I want to create a new employee","SUCCESS","2022-06-21T22:12:21.104+01:00[Europe/London]","0.0","5.56"
+"As a user I would like to check CRUD operation of the application","I want to read a new employee","FAILURE","2022-06-21T22:12:27.350+01:00[Europe/London]","0.0","2.03"
+"As a user I would like to check CRUD operation of the application","I want to update a newly created employee","FAILURE","2022-06-21T22:12:29.476+01:00[Europe/London]","0.0","0.9"
+"As a user I would like to check CRUD operation of the application","I want to delete a newly created employee","FAILURE","2022-06-21T22:12:30.412+01:00[Europe/London]","0.0","0.89"
+"As a user I would like to check CRUD operation of the application","I want to fetch all employees and verify some from the response","SUCCESS","2022-06-21T22:12:31.339+01:00[Europe/London]","0.0","1.27"
